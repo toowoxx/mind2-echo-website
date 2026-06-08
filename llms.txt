@@ -1,0 +1,19 @@
+# mind² ECHO
+
+> mind² ECHO is an AI meeting analysis app that transcribes on your device, separates speakers automatically, and builds a mind² (DISG/DISC) communication profile plus concrete, evidence-backed coaching tips for each person. Audio never leaves your phone. GDPR-compliant.
+
+## Pages
+- [Home](https://mind2-echo.toowoxx.de/en): what mind² ECHO does
+- [FAQ](https://mind2-echo.toowoxx.de/en/faq): common questions and answers ([Markdown](https://mind2-echo.toowoxx.de/en/faq.md))
+- [Privacy policy](https://mind2-echo.toowoxx.de/en/privacy)
+- [Imprint](https://mind2-echo.toowoxx.de/en/imprint)
+
+## Deutsch
+- [Startseite](https://mind2-echo.toowoxx.de/de)
+- [FAQ](https://mind2-echo.toowoxx.de/de/faq) ([Markdown](https://mind2-echo.toowoxx.de/de/faq.md))
+- [Datenschutz](https://mind2-echo.toowoxx.de/de/privacy)
+- [Impressum](https://mind2-echo.toowoxx.de/de/imprint)
+
+## Get the app
+- [Google Play](https://play.google.com/store/apps/details?id=de.dr_thumm.mind2.echo)
+- [App Store](https://apps.apple.com/de/app/mind-echo/id6758762014)

@@ -1,0 +1,9 @@
+# SPEC: Crawl policy for the mind² ECHO site. The site WANTS to be found —
+# including by AI/LLM crawlers (GPTBot, ClaudeBot, PerplexityBot, etc.) — so it
+# allows everything and points crawlers at the sitemap. Do not add Disallow
+# rules for AI user-agents: being absent from AI answers is the failure mode
+# this file exists to prevent.
+User-agent: *
+Allow: /
+
+Sitemap: https://mind2-echo.toowoxx.de/sitemap.xml
