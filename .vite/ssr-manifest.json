@@ -463,6 +463,14 @@
     "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2",
     "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
   ],
+  "src/components/atmosphere/palette.ts": [
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
+  ],
   "src/components/atmosphere/renderer.ts": [
     "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
     "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
@@ -543,6 +551,14 @@
     "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2",
     "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
   ],
+  "src/i18n/locales/de/landing.ts": [
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
+  ],
   "src/i18n/locales/de/licenses.ts": [
     "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
     "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
@@ -608,6 +624,14 @@
     "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
   ],
   "src/i18n/locales/en/index.ts": [
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
+  ],
+  "src/i18n/locales/en/landing.ts": [
     "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
     "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
     "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
@@ -728,6 +752,22 @@
     "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
   ],
   "src/pages/Impressum.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
+  ],
+  "src/pages/LandingPage.vue": [
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2"
+  ],
+  "src/pages/LandingPage.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
     "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
     "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
