@@ -34,7 +34,7 @@ No bot joins your call. mind² ECHO records through your device, so it works for
 
 ## What is the mind² method?
 
-mind² (“mind squared”) is a communication model from Dr. Thumm GmbH. It pairs a behaviour dimension (m, i, n, d: power-oriented, initiating, sustaining, disciplined, the familiar four DISC/DISG colours) with a motive dimension (six drives after Spranger and two temperament axes). mind² ECHO surfaces the behaviour dimension per speaker for a single meeting.
+mind² (“mind squared”) is a communication model from [Dr. Thumm GmbH](https://dr-thumm.de/mind2-methode.html). It pairs a behaviour dimension (m, i, n, d: power-oriented, initiating, sustaining, disciplined, the familiar four DISC/DISG colours) with a motive dimension (six drives after Spranger and two temperament axes). mind² ECHO surfaces the behaviour dimension per speaker for a single meeting.
 
 ## Is this an accurate read of someone’s personality?
 

@@ -34,7 +34,7 @@ Kein Bot tritt deinem Call bei. mind² ECHO nimmt über dein Gerät auf und funk
 
 ## Was ist die mind²-Methode?
 
-mind² („mind hoch zwei“) ist ein Kommunikationsmodell der Dr. Thumm GmbH. Es verbindet eine Verhaltensdimension (m, i, n, d: machtorientiert, initiativ, nachhaltig, diszipliniert, die bekannten vier DISG/DISC-Farben) mit einer Motiv-Dimension (sechs Antriebe nach Spranger und zwei Temperamentachsen). mind² ECHO zeigt die Verhaltensdimension pro Sprecher für ein einzelnes Meeting.
+mind² („mind hoch zwei“) ist ein Kommunikationsmodell der [Dr. Thumm GmbH](https://dr-thumm.de/mind2-methode.html). Es verbindet eine Verhaltensdimension (m, i, n, d: machtorientiert, initiativ, nachhaltig, diszipliniert, die bekannten vier DISG/DISC-Farben) mit einer Motiv-Dimension (sechs Antriebe nach Spranger und zwei Temperamentachsen). mind² ECHO zeigt die Verhaltensdimension pro Sprecher für ein einzelnes Meeting.
 
 ## Ist das eine treffsichere Persönlichkeitsanalyse?
 
