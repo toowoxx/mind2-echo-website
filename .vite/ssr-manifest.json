@@ -581,6 +581,14 @@
     "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
     "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2"
   ],
+  "src/i18n/locales/de/pricing.ts": [
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2",
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2"
+  ],
   "src/i18n/locales/de/seo.ts": [
     "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
     "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2",
@@ -654,6 +662,14 @@
     "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2"
   ],
   "src/i18n/locales/en/licenses.ts": [
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2",
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2"
+  ],
+  "src/i18n/locales/en/pricing.ts": [
     "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
     "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2",
     "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
@@ -798,6 +814,22 @@
     "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2"
   ],
   "src/pages/Licenses.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2",
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2"
+  ],
+  "src/pages/Pricing.vue": [
+    "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+    "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2",
+    "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+    "/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+    "/assets/aleo-vietnamese-wght-normal-BcrREzru.woff2",
+    "/assets/aleo-latin-ext-wght-normal-CeW_BC6H.woff2"
+  ],
+  "src/pages/Pricing.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
     "/assets/aleo-latin-wght-normal-BrlYyHnC.woff2",
     "/assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
