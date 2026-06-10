@@ -12,6 +12,7 @@
 - [On-device transcription](https://mind2-echo.toowoxx.de/en/on-device-meeting-transcription): On-device meeting transcription keeps your audio on your phone. mind² ECHO transcribes meetings locally with Whisper and separates speakers on the device, so no recording is ever uploaded. GDPR-compliant, no meeting bot.
 - [Communication analysis](https://mind2-echo.toowoxx.de/en/meeting-communication-analysis): Meeting communication analysis reads how each person communicated in a real meeting, not a questionnaire. mind² ECHO builds a per-speaker mind² profile across four behaviour dimensions (the familiar DISC/DISG four colours), with a confidence level and quotes. Situational, never a personality verdict.
 - [AI meeting coaching](https://mind2-echo.toowoxx.de/en/ai-meeting-coaching): AI meeting coaching turns a real meeting into per-speaker feedback. mind² ECHO gives each participant behaviour and content tips grounded in what they actually said, backed by quotes, and never ranks people against each other. On-device transcription, GDPR-compliant.
+- [Comparison](https://mind2-echo.toowoxx.de/en/meeting-tool-comparison): How mind² ECHO compares to Otter.ai, Jamie and Read AI: on-device versus cloud transcription, no bot versus a meeting bot, and a per-speaker mind² communication profile plus coaching. A fair, factual comparison, including where the others are stronger.
 
 ## Deutsch
 - [Startseite](https://mind2-echo.toowoxx.de/de)
@@ -21,6 +22,7 @@
 - [Transkription auf dem Gerät](https://mind2-echo.toowoxx.de/de/on-device-meeting-transcription): Transkription auf dem Gerät hält dein Audio auf dem Telefon. mind² ECHO transkribiert Meetings lokal mit Whisper und trennt Sprecher direkt auf dem Gerät, sodass keine Aufnahme hochgeladen wird. DSGVO-konform, ohne Meeting-Bot.
 - [Kommunikationsanalyse](https://mind2-echo.toowoxx.de/de/meeting-communication-analysis): Kommunikationsanalyse liest, wie jede Person in einem echten Meeting kommuniziert hat, ganz ohne Fragebogen. mind² ECHO erstellt pro Sprecher ein mind²-Profil über vier Verhaltensdimensionen (die bekannten vier DISC/DISG-Farben), mit Konfidenzstufe und Zitaten. Situativ, nie ein Persönlichkeitsurteil.
 - [KI-Meeting-Coaching](https://mind2-echo.toowoxx.de/de/ai-meeting-coaching): KI-Meeting-Coaching macht aus einem echten Meeting Feedback pro Sprecher. mind² ECHO gibt jeder Person Verhaltens- und Inhaltstipps, die aus dem Gesagten abgeleitet und mit Zitaten belegt sind, und vergleicht niemanden mit anderen. On-Device-Transkription, DSGVO-konform.
+- [Vergleich](https://mind2-echo.toowoxx.de/de/meeting-tool-comparison): Wie sich mind² ECHO mit Otter.ai, Jamie und Read AI vergleicht: Transkription auf dem Gerät statt Cloud, kein Bot statt Meeting-Bot und ein mind²-Kommunikationsprofil pro Sprecher samt Coaching. Ein fairer, sachlicher Vergleich, auch dort, wo die anderen stärker sind.
 
 ## Get the app
 - [Google Play](https://play.google.com/store/apps/details?id=de.dr_thumm.mind2.echo)
