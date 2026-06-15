@@ -10,7 +10,7 @@ mind² ECHO produces a mind² profile for each speaker across four behaviour dim
 
 ## Is my meeting audio private? Does transcription run on-device?
 
-Speech recognition and speaker separation run entirely on your device. Transcription uses the Apache-licensed [ACFT Whisper models](https://github.com/futo-org/whisper-acft) from [FUTO](https://voiceinput.futo.org/), whose mission is freeing technology from the control of the few; speakers are then told apart by the open-source [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) stack (a [pyannote](https://github.com/pyannote/pyannote-audio) segmentation model with [wespeaker](https://github.com/wenet-e2e/wespeaker) speaker embeddings). The audio stream never leaves your phone. Only the transcript text, never the audio, is sent for AI analysis, and only with your explicit consent; the server does not keep it. It is GDPR-compliant, with one-tap erasure under Art. 17 GDPR.
+Speech recognition and speaker separation run entirely on your device. Transcription uses the Apache-licensed [ACFT Whisper models](https://github.com/futo-org/whisper-acft) from [FUTO](https://voiceinput.futo.org/), whose mission is freeing technology from the control of the few; speakers are then told apart by the open-source [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) stack (a [pyannote](https://github.com/pyannote/pyannote-audio) segmentation model with [wespeaker](https://github.com/wenet-e2e/wespeaker) speaker embeddings). The audio stream never leaves your device. Only the transcript text, never the audio, is sent for AI analysis, and only with your explicit consent; the server does not keep it. It is GDPR-compliant, with one-tap erasure under Art. 17 GDPR.
 
 ## Does it give personalised coaching for each person?
 
@@ -26,7 +26,7 @@ Yes. mind² ECHO reports each speaker’s talk time and share of the conversatio
 
 ## Do I need to tell people I’m recording?
 
-Yes. Always tell everyone and get their agreement before you record; recording a conversation secretly isn’t okay (in Germany it is even a criminal-law matter, §201 StGB, the “right to one’s own word”). mind² ECHO is built to make that an easy yes: transcription runs on your device, the audio never leaves your phone, transcripts are transient, and everything can be erased with one tap. You’re asking people to agree to something genuinely minimal, not a recording shipped off to a company’s cloud.
+Yes. Always tell everyone and get their agreement before you record; recording a conversation secretly isn’t okay (in Germany it is even a criminal-law matter, §201 StGB, the “right to one’s own word”). mind² ECHO is built to make that an easy yes: transcription runs on your device, the audio never leaves your device, transcripts are transient, and everything can be erased with one tap. You’re asking people to agree to something genuinely minimal, not a recording shipped off to a company’s cloud.
 
 ## Does it need a bot to join my video call? Does it work for in-person meetings?
 

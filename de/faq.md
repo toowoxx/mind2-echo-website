@@ -10,7 +10,7 @@ mind² ECHO erstellt pro Sprecher ein mind²-Profil über vier Verhaltensdimensi
 
 ## Bleibt mein Meeting-Audio privat? Läuft die Transkription auf dem Gerät?
 
-Spracherkennung und Sprechertrennung laufen vollständig auf deinem Gerät. Die Transkription nutzt die Apache-lizenzierten [ACFT-Whisper-Modelle](https://github.com/futo-org/whisper-acft) von [FUTO](https://voiceinput.futo.org/), deren Mission es ist, Technologie aus der Kontrolle von wenigen zu befreien; die Sprecher werden anschließend vom Open-Source-Stack [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (ein [pyannote](https://github.com/pyannote/pyannote-audio)-Segmentierungsmodell mit [wespeaker](https://github.com/wenet-e2e/wespeaker)-Sprecher-Embeddings) getrennt. Der Audio-Stream verlässt dein Telefon nie. Nur der Transkript-Text, niemals das Audio, geht in die KI-Auswertung, und das ausschließlich mit deiner ausdrücklichen Einwilligung; der Server speichert ihn nicht. DSGVO-konform, mit Löschung auf einen Tipp (Art. 17 DSGVO).
+Spracherkennung und Sprechertrennung laufen vollständig auf deinem Gerät. Die Transkription nutzt die Apache-lizenzierten [ACFT-Whisper-Modelle](https://github.com/futo-org/whisper-acft) von [FUTO](https://voiceinput.futo.org/), deren Mission es ist, Technologie aus der Kontrolle von wenigen zu befreien; die Sprecher werden anschließend vom Open-Source-Stack [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (ein [pyannote](https://github.com/pyannote/pyannote-audio)-Segmentierungsmodell mit [wespeaker](https://github.com/wenet-e2e/wespeaker)-Sprecher-Embeddings) getrennt. Der Audio-Stream verlässt dein Gerät nie. Nur der Transkript-Text, niemals das Audio, geht in die KI-Auswertung, und das ausschließlich mit deiner ausdrücklichen Einwilligung; der Server speichert ihn nicht. DSGVO-konform, mit Löschung auf einen Tipp (Art. 17 DSGVO).
 
 ## Gibt es persönliches Coaching für jede Person?
 
@@ -26,7 +26,7 @@ Ja. mind² ECHO zeigt pro Sprecher die Sprechzeit und den Gesprächsanteil, die 
 
 ## Darf ich Meetings aufzeichnen? Was ist mit §201 StGB / dem Betriebsrat?
 
-Ja. Aber informiere immer alle Teilnehmenden und hol ihr Einverständnis ein, bevor du aufnimmst; heimliche Aufnahmen sind tabu (§201 StGB schützt das gesprochene Wort), und in Unternehmen mit Betriebsrat stimmst du den Einsatz am besten mit ihm ab. mind² ECHO macht dieses Ja leicht: Die Transkription läuft auf deinem Gerät, der Ton verlässt dein Telefon nie, Transkripte sind transient, und alles ist mit einem Tipp löschbar. Du bittest also um Zustimmung zu etwas wirklich Minimalem, nicht um eine Aufnahme, die in irgendeiner Cloud landet.
+Ja. Aber informiere immer alle Teilnehmenden und hol ihr Einverständnis ein, bevor du aufnimmst; heimliche Aufnahmen sind tabu (§201 StGB schützt das gesprochene Wort), und in Unternehmen mit Betriebsrat stimmst du den Einsatz am besten mit ihm ab. mind² ECHO macht dieses Ja leicht: Die Transkription läuft auf deinem Gerät, der Ton verlässt dein Gerät nie, Transkripte sind transient, und alles ist mit einem Tipp löschbar. Du bittest also um Zustimmung zu etwas wirklich Minimalem, nicht um eine Aufnahme, die in irgendeiner Cloud landet.
 
 ## Braucht es einen Bot, der dem Videocall beitritt? Funktioniert es bei Präsenz-Meetings?
 
