@@ -2,7 +2,7 @@
 
 ## Kann eine App aus einem echten Meeting erkennen, wie jede Person kommuniziert, ohne Fragebogen?
 
-Ja. mind² ECHO erstellt für jede Person im Raum eine Kommunikations-Momentaufnahme aus dem Meeting selbst, also daraus, wie sie tatsächlich gesprochen hat, statt einen Persönlichkeitsfragebogen ausfüllen zu lassen. Keine Formulare, kein Setup: Meeting aufnehmen, und jeder Sprecher erhält ein eigenes Profil und Coaching, belegt mit Zitaten aus dem Transkript.
+Ja. mind² ECHO erstellt für jede Person im Raum eine Kommunikations-Momentaufnahme aus dem Meeting selbst, also daraus, wie sie tatsächlich gesprochen hat, statt einen Persönlichkeitsfragebogen ausfüllen zu lassen. Keine Formulare, kein Setup: Meeting aufnehmen, und jeder Sprecher erhält ein eigenes Coaching und ein Profil, belegt mit Zitaten aus dem Transkript.
 
 ## Bekomme ich aus einem Meeting ein DISG-/DISC-Kommunikationsprofil einer Person?
 
@@ -10,11 +10,11 @@ mind² ECHO erstellt pro Sprecher ein mind²-Profil über vier Verhaltensdimensi
 
 ## Bleibt mein Meeting-Audio privat? Läuft die Transkription auf dem Gerät?
 
-Spracherkennung und Sprechertrennung laufen vollständig auf deinem Gerät. Die Transkription übernimmt NVIDIAs [Nemotron-Streaming-Sprachmodell](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b) über den Open-Source-Stack [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx), und zwar live: Die Wörter erscheinen im Transkript, während noch gesprochen wird. Die Sprecher werden in zwei Stufen getrennt, beide auf dem Gerät: live während der Aufnahme durch ein [pyannote](https://github.com/pyannote/pyannote-audio)-Segmentierungsmodell mit [wespeaker](https://github.com/wenet-e2e/wespeaker)-Sprecher-Embeddings, und noch einmal in der abschließenden Analyse durch NVIDIAs Diarisierungsmodell [Streaming Sortformer](https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1), das jedes Wort dem richtigen Sprecher zuordnet. Die Apache-lizenzierten [ACFT-Whisper-Modelle](https://github.com/futo-org/whisper-acft) von [FUTO](https://voiceinput.futo.org/), deren Mission es ist, Technologie aus der Kontrolle von wenigen zu befreien, bleiben als Fallback an Bord. Der Audio-Stream verlässt dein Gerät nie. Nur der Transkript-Text, niemals das Audio, geht in die KI-Auswertung, und das ausschließlich mit deiner ausdrücklichen Einwilligung; der Server speichert ihn nicht. DSGVO-konform, mit Löschung auf einen Tipp (Art. 17 DSGVO).
+Spracherkennung und Sprechertrennung laufen vollständig auf deinem Gerät. Die Transkription übernimmt NVIDIAs [Nemotron-Streaming-Sprachmodell](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b) über den Open-Source-Stack [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx), und zwar live: Die Wörter erscheinen im Transkript, während noch gesprochen wird. Die Sprecher werden auf dem Gerät durch NVIDIAs Diarisierungsmodell [Streaming Sortformer](https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1) getrennt, das jedes Wort dem richtigen Sprecher zuordnet und dafür ein [pyannote](https://github.com/pyannote/pyannote-audio)-Segmentierungsmodell mit [wespeaker](https://github.com/wenet-e2e/wespeaker)-Sprecher-Embeddings nutzt. Der Audio-Stream verlässt dein Gerät nie. Nur der Transkript-Text, niemals das Audio, geht in die KI-Auswertung, und das ausschließlich mit deiner ausdrücklichen Einwilligung; der Server speichert ihn nicht. DSGVO-konform, mit Löschung auf einen Tipp (Art. 17 DSGVO).
 
 ## Gibt es persönliches Coaching für jede Person?
 
-Ja. Jeder Sprecher erhält Verhaltens- und Inhalts-Tipps, abgeleitet aus dem tatsächlich Gesagten: Stärken zum Ausspielen, blinde Flecken im Blick behalten, was beim nächsten Mal anders laufen kann. Jeder Tipp ist mit Zitaten belegt. mind² ECHO vergleicht oder bewertet Sprecher nie gegeneinander; jedes Coaching steht für sich.
+Ja. Jeder Sprecher erhält Verhaltens- und Inhalts-Tipps, abgeleitet aus dem tatsächlich Gesagten: Stärken zum Ausspielen, blinde Flecken im Blick behalten, was beim nächsten Mal anders laufen kann. mind² ECHO vergleicht oder bewertet Sprecher nie gegeneinander; jedes Coaching steht für sich.
 
 ## Wie unterscheidet sich mind² ECHO von Otter, Fireflies oder Read AI?
 
@@ -36,9 +36,9 @@ Ja. Aber informiere immer alle Teilnehmenden und hol ihr Einverständnis ein, be
 
 Kein Bot tritt deinem Call bei. mind² ECHO nimmt über dein Gerät auf und funktioniert deshalb beim Meeting am Tisch genauso wie beim Videocall. Es gibt keinen Meeting-Bot zum Einladen und nichts, was die anderen installieren müssen.
 
-## Warum lädt die App Modelle herunter, und wie groß sind sie?
+## Warum lädt die App Modelle herunter?
 
-Die Sprachmodelle sind zu groß, um sie fest in die App einzubauen; mind² ECHO lädt sie deshalb bei Bedarf herunter: das Transkriptionsmodell mit rund 410 MB, das Diarisierungsmodell für die abschließende Analyse mit 492 MB, dazu die zwei kleinen Modelle für die Live-Sprechertrennung mit zusammen rund 36 MB. Die beiden großen Modelle werden gegen eine SHA-256-Prüfsumme verifiziert und kommen von GitHub-Releases unter unserer Kontrolle; die zwei kleinen Live-Modelle stammen aus den Releases des Open-Source-Projekts sherpa-onnx. Beim Laden eines Modells werden nie Server eines KI-Anbieters kontaktiert. Vor dem Start prüft die App den freien Speicherplatz, und im Mobilfunknetz fragt sie nach, bevor sie etwas Großes herunterlädt.
+Die Sprachmodelle sind zu groß, um sie fest in die App einzubauen; mind² ECHO lädt sie deshalb bei Bedarf herunter. Das Transkriptionsmodell und das Diarisierungsmodell werden gegen eine SHA-256-Prüfsumme verifiziert und kommen von GitHub-Releases unter unserer Kontrolle. Das Segmentierungs- und das Embedding-Modell für die Sprecher-Embeddings stammen aus den Releases des Open-Source-Projekts sherpa-onnx. Beim Laden eines Modells werden nie Server eines KI-Anbieters kontaktiert. Vor dem Start prüft die App den freien Speicherplatz, und im Mobilfunknetz fragt sie nach, bevor sie etwas Großes herunterlädt.
 
 ## Kann ich vorhandene Aufnahmen importieren?
 

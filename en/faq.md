@@ -2,7 +2,7 @@
 
 ## Can an app analyse how each person communicates from a real meeting, without a questionnaire?
 
-Yes. mind² ECHO builds a communication snapshot for each person in the room from the meeting itself, from how they actually spoke, instead of asking anyone to fill in a personality questionnaire. There are no forms and no setup: record the meeting, and every speaker gets their own profile and coaching, backed by quotes from the transcript.
+Yes. mind² ECHO builds a communication snapshot for each person in the room from the meeting itself, from how they actually spoke, instead of asking anyone to fill in a personality questionnaire. There are no forms and no setup: record the meeting, and every speaker gets their own coaching and a profile backed by quotes from the transcript.
 
 ## Can I get a DISC-style (DISG) communication profile of someone from a meeting?
 
@@ -10,11 +10,11 @@ mind² ECHO produces a mind² profile for each speaker across four behaviour dim
 
 ## Is my meeting audio private? Does transcription run on-device?
 
-Speech recognition and speaker separation run entirely on your device. Transcription runs live on NVIDIA’s [Nemotron streaming speech model](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b) through the open-source [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) stack, so words appear in the transcript while people are still speaking. Speakers are told apart in two stages, both on-device: live during the recording by a [pyannote](https://github.com/pyannote/pyannote-audio) segmentation model with [wespeaker](https://github.com/wenet-e2e/wespeaker) speaker embeddings, and again in the final analysis pass by NVIDIA’s [Streaming Sortformer](https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1) diarization model, which assigns every word to the right speaker. The Apache-licensed [ACFT Whisper models](https://github.com/futo-org/whisper-acft) from [FUTO](https://voiceinput.futo.org/), whose mission is freeing technology from the control of the few, remain on board as a fallback engine. The audio stream never leaves your device. Only the transcript text, never the audio, is sent for AI analysis, and only with your explicit consent; the server does not keep it. It is GDPR-compliant, with one-tap erasure under Art. 17 GDPR.
+Speech recognition and speaker separation run entirely on your device. Transcription runs live on NVIDIA’s [Nemotron streaming speech model](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b) through the open-source [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) stack, so words appear in the transcript while people are still speaking. Speakers are told apart on the device by NVIDIA’s [Streaming Sortformer](https://huggingface.co/nvidia/diar_streaming_sortformer_4spk-v2.1) diarization model, which assigns every word to the right speaker, using a [pyannote](https://github.com/pyannote/pyannote-audio) segmentation model with [wespeaker](https://github.com/wenet-e2e/wespeaker) speaker embeddings. The audio stream never leaves your device. Only the transcript text, never the audio, is sent for AI analysis, and only with your explicit consent; the server does not keep it. It is GDPR-compliant, with one-tap erasure under Art. 17 GDPR.
 
 ## Does it give personalised coaching for each person?
 
-Yes. Every speaker gets behaviour and content coaching derived from what they actually said: strengths to lean on, blind spots to watch, what to try next time. Each tip is backed by quotes from the transcript. mind² ECHO never ranks or compares speakers against each other; each person’s coaching stands on its own.
+Yes. Every speaker gets behaviour and content coaching derived from what they actually said: strengths to lean on, blind spots to watch, what to try next time. mind² ECHO never ranks or compares speakers against each other; each person’s coaching stands on its own.
 
 ## How is mind² ECHO different from Otter, Fireflies, or Read AI?
 
@@ -36,9 +36,9 @@ Yes. Always tell everyone and get their agreement before you record; recording a
 
 No bot joins your call. mind² ECHO records through your device, so it works for in-person meetings around a table just as well as for video calls. There is no meeting bot to invite and nothing for the other participants to install.
 
-## Why does the app download models, and how big are they?
+## Why does the app download models?
 
-The speech models are too large to bundle into the app, so mind² ECHO downloads them on demand: the transcription model is about a 410 MB download, the diarization model for the final analysis pass is 492 MB, and the two small live speaker-separation models add about 36 MB together. The two big models are integrity-checked against a SHA-256 hash and served from GitHub releases under our control; the two small live models come from the open-source sherpa-onnx project’s releases. Fetching a model never contacts an AI provider’s servers. The app checks your free disk space before it starts, and on mobile data it asks before downloading anything large.
+The speech models are too large to bundle into the app, so mind² ECHO downloads them on demand. The transcription model and the diarization model are checked against a SHA-256 hash and come from GitHub releases under our control. The segmentation and embedding models used for the speaker embeddings come from the releases of the open-source sherpa-onnx project. Fetching a model never contacts an AI provider’s servers. The app checks your free disk space before it starts, and on mobile data it asks before downloading anything large.
 
 ## Can I import existing recordings?
 
