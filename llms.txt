@@ -1,28 +1,30 @@
 # mind² ECHO
 
-> mind² ECHO is an AI meeting analysis app that transcribes live on your device, separates the speakers on-device after the meeting, and builds a mind² (DISG/DISC) communication profile plus concrete, evidence-backed coaching tips for each person. Audio never leaves your device. GDPR-compliant.
+> mind² ECHO transcribes meetings live on your device and builds a mind² (DISC/DISG) communication profile with coaching tips for each person. GDPR-compliant.
 
 ## Pages
 - [Home](https://mind2-echo.toowoxx.de/en/): what mind² ECHO does
-- [FAQ](https://mind2-echo.toowoxx.de/en/faq/): common questions and answers ([Markdown](https://mind2-echo.toowoxx.de/en/faq.md))
+- [FAQ](https://mind2-echo.toowoxx.de/en/faq/): common questions and answers
 - [Privacy policy](https://mind2-echo.toowoxx.de/en/privacy/)
 - [Imprint](https://mind2-echo.toowoxx.de/en/imprint/)
 
 ## Topics
-- [On-device transcription](https://mind2-echo.toowoxx.de/en/on-device-meeting-transcription/): On-device meeting transcription keeps your audio on your device. mind² ECHO transcribes meetings live with NVIDIA’s Nemotron speech model and separates the speakers on the device afterwards, so no recording is ever uploaded. GDPR-compliant, no meeting bot.
-- [Communication analysis](https://mind2-echo.toowoxx.de/en/meeting-communication-analysis/): Meeting communication analysis reads how each person communicated in a real meeting, not a questionnaire. mind² ECHO builds a per-speaker mind² profile across four behaviour dimensions (the familiar DISC/DISG four colours), with a confidence level and quotes. Situational, never a personality verdict.
-- [AI meeting coaching](https://mind2-echo.toowoxx.de/en/ai-meeting-coaching/): AI meeting coaching turns a real meeting into per-speaker feedback. mind² ECHO gives each participant behaviour and content tips grounded in what they actually said, and never ranks people against each other. On-device transcription, GDPR-compliant.
-- [Comparison](https://mind2-echo.toowoxx.de/en/meeting-tool-comparison/): How mind² ECHO compares to Otter.ai, Jamie and Read AI: on-device versus cloud transcription, no bot versus a meeting bot, and a per-speaker mind² communication profile plus coaching. A fair, factual comparison, including where the others are stronger.
+- [On-device transcription](https://mind2-echo.toowoxx.de/en/on-device-meeting-transcription/): Your audio stays on your device: mind² ECHO transcribes meetings locally and for free, without the cloud and without an account.
+- [Communication analysis](https://mind2-echo.toowoxx.de/en/meeting-communication-analysis/): Meeting communication analysis reads how each person communicated in a real meeting. mind² ECHO builds a per-speaker mind² profile with confidence and quotes.
+- [AI meeting coaching](https://mind2-echo.toowoxx.de/en/ai-meeting-coaching/): AI meeting coaching turns a real meeting into per-speaker feedback. mind² ECHO gives each participant tips based on what they said and never ranks people.
+- [Comparison](https://mind2-echo.toowoxx.de/en/meeting-tool-comparison/): How mind² ECHO compares to Otter.ai, Jamie and Read AI: on-device versus cloud transcription, no bot versus a meeting bot, and a per-speaker mind² profile.
+- [Lecture transcription](https://mind2-echo.toowoxx.de/en/transcribe-lectures/): mind² ECHO transcribes lectures on your device at no cost. Speech recognition runs there, and the audio never leaves it.
 
 ## Deutsch
 - [Startseite](https://mind2-echo.toowoxx.de/de/)
-- [FAQ](https://mind2-echo.toowoxx.de/de/faq/) ([Markdown](https://mind2-echo.toowoxx.de/de/faq.md))
+- [FAQ](https://mind2-echo.toowoxx.de/de/faq/)
 - [Datenschutz](https://mind2-echo.toowoxx.de/de/privacy/)
 - [Impressum](https://mind2-echo.toowoxx.de/de/imprint/)
-- [Transkription auf dem Gerät](https://mind2-echo.toowoxx.de/de/on-device-meeting-transcription/): Transkription auf dem Gerät hält dein Audio bei dir. mind² ECHO transkribiert Meetings live mit NVIDIAs Nemotron-Sprachmodell und trennt die Sprecher im Anschluss direkt auf dem Gerät, sodass keine Aufnahme hochgeladen wird. DSGVO-konform, ohne Meeting-Bot.
-- [Kommunikationsanalyse](https://mind2-echo.toowoxx.de/de/meeting-communication-analysis/): Kommunikationsanalyse liest, wie jede Person in einem echten Meeting kommuniziert hat, ganz ohne Fragebogen. mind² ECHO erstellt pro Sprecher ein mind²-Profil über vier Verhaltensdimensionen (die bekannten vier DISC/DISG-Farben), mit Konfidenzstufe und Zitaten. Situativ, nie ein Persönlichkeitsurteil.
-- [KI-Meeting-Coaching](https://mind2-echo.toowoxx.de/de/ai-meeting-coaching/): KI-Meeting-Coaching macht aus einem echten Meeting Feedback pro Sprecher. mind² ECHO gibt jeder Person Verhaltens- und Inhaltstipps, die aus dem Gesagten abgeleitet sind, und vergleicht niemanden mit anderen. On-Device-Transkription, DSGVO-konform.
-- [Vergleich](https://mind2-echo.toowoxx.de/de/meeting-tool-comparison/): Wie sich mind² ECHO mit Otter.ai, Jamie und Read AI vergleicht: Transkription auf dem Gerät statt Cloud, kein Bot statt Meeting-Bot und ein mind²-Kommunikationsprofil pro Sprecher samt Coaching. Ein fairer, sachlicher Vergleich, auch dort, wo die anderen stärker sind.
+- [Transkription ohne Cloud](https://mind2-echo.toowoxx.de/de/transkription-ohne-cloud/): Dein Audio bleibt auf deinem Gerät: mind² ECHO transkribiert Meetings lokal und kostenlos, ohne Cloud und ohne Konto.
+- [Kommunikationsanalyse](https://mind2-echo.toowoxx.de/de/meeting-communication-analysis/): Kommunikationsanalyse liest, wie jede Person in einem echten Meeting kommuniziert hat. mind² ECHO erstellt pro Sprecher ein mind²-Profil mit Zitaten.
+- [KI-Meeting-Coaching](https://mind2-echo.toowoxx.de/de/ai-meeting-coaching/): KI-Meeting-Coaching macht aus einem echten Meeting Feedback pro Sprecher. mind² ECHO gibt jeder Person Tipps aus dem Gesagten und vergleicht niemanden.
+- [Vergleich](https://mind2-echo.toowoxx.de/de/meeting-tool-comparison/): Wie sich mind² ECHO mit Otter.ai, Jamie und Read AI vergleicht: Transkription auf dem Gerät statt Cloud, kein Meeting-Bot und ein mind²-Profil pro Sprecher.
+- [Vorlesung transkribieren](https://mind2-echo.toowoxx.de/de/vorlesung-transkribieren/): mind² ECHO transkribiert Vorlesungen kostenlos auf deinem Gerät. Die Spracherkennung läuft dort, und das Audio verlässt es nie.
 
 ## Get the app
 - [Google Play](https://play.google.com/store/apps/details?id=de.dr_thumm.mind2.echo)

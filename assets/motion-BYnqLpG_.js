@@ -1,0 +1,1 @@
+function e(e){return e-360*Math.round(e/360)}function t(e,t,n){return Math.min(n,Math.max(t,e))}function n(e,t){return 1-Math.exp(-Math.max(0,e)/t)}var r;function i(){return r??=window.matchMedia(`(prefers-reduced-motion: reduce)`),r}function a(){return i().matches}export{e as a,n as i,i as n,t as r,a as t};
