@@ -12,8 +12,10 @@
 - [On-device transcription](https://mind2-echo.toowoxx.de/en/on-device-meeting-transcription/): Your audio stays on your device: mind² ECHO transcribes meetings locally and for free, without the cloud and without an account.
 - [Communication analysis](https://mind2-echo.toowoxx.de/en/meeting-communication-analysis/): Meeting communication analysis reads how each person communicated in a real meeting. mind² ECHO builds a per-speaker mind² profile with confidence and quotes.
 - [AI meeting coaching](https://mind2-echo.toowoxx.de/en/ai-meeting-coaching/): AI meeting coaching turns a real meeting into per-speaker feedback. mind² ECHO gives each participant tips based on what they said and never ranks people.
-- [Comparison](https://mind2-echo.toowoxx.de/en/meeting-tool-comparison/): How mind² ECHO compares to Otter.ai, Jamie and Read AI: on-device versus cloud transcription, no bot versus a meeting bot, and a per-speaker mind² profile.
+- [Meeting tool comparison](https://mind2-echo.toowoxx.de/en/meeting-tool-comparison/): How mind² ECHO compares to Otter.ai, Jamie and Read AI: on-device versus cloud transcription, no bot versus a meeting bot, and a per-speaker mind² profile.
 - [Lecture transcription](https://mind2-echo.toowoxx.de/en/transcribe-lectures/): mind² ECHO transcribes lectures on your device at no cost. Speech recognition runs there, and the audio never leaves it.
+- [Speaker labels on Android](https://mind2-echo.toowoxx.de/en/speaker-labels-android-offline/): mind² ECHO transcribes on your Android phone and labels who said what, for up to 4 speakers. Speech recognition and speaker separation run on the device.
+- [Free Otter alternative](https://mind2-echo.toowoxx.de/en/free-otter-alternative/): mind² ECHO transcribes on your phone at no cost, and the app sets no time limit. See the free plans of Otter Basic and Notta Free next to it.
 
 ## Deutsch
 - [Startseite](https://mind2-echo.toowoxx.de/de/)
@@ -23,8 +25,10 @@
 - [Transkription ohne Cloud](https://mind2-echo.toowoxx.de/de/transkription-ohne-cloud/): Dein Audio bleibt auf deinem Gerät: mind² ECHO transkribiert Meetings lokal und kostenlos, ohne Cloud und ohne Konto.
 - [Kommunikationsanalyse](https://mind2-echo.toowoxx.de/de/meeting-communication-analysis/): Kommunikationsanalyse liest, wie jede Person in einem echten Meeting kommuniziert hat. mind² ECHO erstellt pro Sprecher ein mind²-Profil mit Zitaten.
 - [KI-Meeting-Coaching](https://mind2-echo.toowoxx.de/de/ai-meeting-coaching/): KI-Meeting-Coaching macht aus einem echten Meeting Feedback pro Sprecher. mind² ECHO gibt jeder Person Tipps aus dem Gesagten und vergleicht niemanden.
-- [Vergleich](https://mind2-echo.toowoxx.de/de/meeting-tool-comparison/): Wie sich mind² ECHO mit Otter.ai, Jamie und Read AI vergleicht: Transkription auf dem Gerät statt Cloud, kein Meeting-Bot und ein mind²-Profil pro Sprecher.
+- [Meeting-Tool-Vergleich](https://mind2-echo.toowoxx.de/de/meeting-tool-comparison/): Wie sich mind² ECHO mit Otter.ai, Jamie und Read AI vergleicht: Transkription auf dem Gerät statt Cloud, kein Meeting-Bot und ein mind²-Profil pro Sprecher.
 - [Vorlesung transkribieren](https://mind2-echo.toowoxx.de/de/vorlesung-transkribieren/): mind² ECHO transkribiert Vorlesungen kostenlos auf deinem Gerät. Die Spracherkennung läuft dort, und das Audio verlässt es nie.
+- [Sprecher erkennen auf Android](https://mind2-echo.toowoxx.de/de/sprecher-erkennen-android-offline/): mind² ECHO transkribiert auf deinem Android-Smartphone und ordnet zu, wer was gesagt hat, für bis zu 4 Sprecher. Die Sprechertrennung läuft auf dem Gerät.
+- [Otter-Alternative kostenlos](https://mind2-echo.toowoxx.de/de/otter-alternative-kostenlos/): mind² ECHO transkribiert kostenlos auf deinem Handy, und die App setzt kein Zeitlimit. Daneben die kostenlosen Stufen von Otter Basic und Notta Free.
 
 ## Get the app
 - [Google Play](https://play.google.com/store/apps/details?id=de.dr_thumm.mind2.echo)

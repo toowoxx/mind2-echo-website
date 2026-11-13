@@ -1,0 +1,1 @@
+import{T as e,_ as t,f as n,j as r,t as i,v as a,x as o}from"./i18n-D9lqufRr.js";function s(){let{locale:s}=o(),c=e(),l=r(()=>{let{value:e}=s;if(!n(e))throw Error(`the language ${e} is not one of the site`);return e});function u(e=``){return a(l.value,e)}function d(e){return a(e,t(c.meta))}return{current:l,localePath:u,currentPageIn:d,locales:i}}export{s as t};

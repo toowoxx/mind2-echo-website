@@ -1,4 +1,4 @@
-import{i as e,n as t,r as n}from"./motion-BYnqLpG_.js";import{a as r,c as i,l as a,o,s}from"./app-DFjj8njG.js";import{i as c,n as l,t as u}from"./mind-BUPxeGof.js";let d=function(e){return e.NoWebGl=`no-webgl`,e.Shader=`shader`,e.Colour=`colour`,e}({});var f=class extends Error{constructor(e,t,n){super(t,n),this.failure=e}},p=`
+import{i as e,n as t,r as n}from"./motion-BYnqLpG_.js";import{a as r,c as i,l as a,o,s}from"./app-811NXZEr.js";import{i as c,n as l,t as u}from"./mind-DjeeWEAd.js";let d=function(e){return e.NoWebGl=`no-webgl`,e.Shader=`shader`,e.Colour=`colour`,e}({});var f=class extends Error{constructor(e,t,n){super(t,n),this.failure=e}},p=`
 attribute vec2 position;
 attribute float radius;
 attribute vec4 colour;
